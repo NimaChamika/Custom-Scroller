@@ -7,18 +7,17 @@ root.render(
   <React.StrictMode>
     <div
       style={{
-        justifyContent: "center",
         display: "flex",
+        justifyContent: "center",
         alignItems: "center",
       }}
     >
       <div
         id="innerDiv"
         style={{
-          position: "relative",
-          maxWidth: "100vw",
           height: "100vh",
-          width: "576px",
+          width: "100%",
+          maxWidth: "576px",
         }}
       >
         <App />
