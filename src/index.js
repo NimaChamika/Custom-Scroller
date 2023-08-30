@@ -10,7 +10,6 @@ root.render(
         justifyContent: "center",
         display: "flex",
         alignItems: "center",
-        minHeight: "100vh",
       }}
     >
       <div
